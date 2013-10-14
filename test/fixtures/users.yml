@@ -4,3 +4,10 @@ kwame:
   profile_name: 'kwameg'
   email: 'kgaconti@hotmail.com'
   encrypted_password: 'password'
+
+kwame1:
+  first_name: 'Kwame1'
+  last_name: 'Gyau1'
+  profile_name: 'kwameg1'
+  email: 'kgaconti1@hotmail.com'
+  encrypted_password: 'password1'

@@ -1,0 +1,39 @@
+// Place all the styles related to the statuses controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	padding-top: 50px;
+}
+.btn {
+	margin-bottom: 1%;
+}
+.status {
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	margin-bottom: 1%;
+	padding: 0.5%;
+}
+
+.status p {
+	margin: 4px 0;
+} 
+
+.status .admin {
+	display: none;
+}
+
+//if javascript is active
+.status.hover .admin {
+	display: inline;
+}
+.status.hover {
+		background: rgba(0,0,0,0.075);
+}
+
+// if javscript is disable
+.status:hover .admin {
+	display: inline;
+}
+.status:hover {
+		background: rgba(0,0,0,0.075);
+}

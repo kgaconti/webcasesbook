@@ -1,5 +1,5 @@
 <div class="page-header">
-  <h1>All of the Statuses</h1>
+  <h1>All Statuses</h1>
 </div>
 
 <%= link_to 'New Status', new_status_path, class: 'btn btn-info' %>
@@ -8,7 +8,9 @@
     <div class="status">
       <div class="row">
         <div class="span1">
-          <%= image_tag status.user.gravatar_url %>
+          <span class="pic">
+            <%= image_tag status.user.gravatar_url %>
+          </span>
         </div>
         <div class="span7">
           <strong><%= status.user.full_name %></strong>

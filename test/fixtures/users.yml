@@ -1,13 +1,13 @@
 kwame:
   first_name: 'Kwame'
   last_name: 'Gyau'
-  profile_name: 'kwameg'
+  profile_name: 'kwame'
   email: 'kgaconti@hotmail.com'
   encrypted_password: 'password'
 
 kwame1:
   first_name: 'Kwame1'
   last_name: 'Gyau1'
-  profile_name: 'kwameg1'
+  profile_name: 'kwame1'
   email: 'kgaconti1@hotmail.com'
   encrypted_password: 'password1'

@@ -13,8 +13,8 @@ class User < ActiveRecord::Base
    								with: /\A[a-zA-Z0-9._-]+\z/,
    								message: 'Must have no spaces, special characters and fomatted correctly'
    							}
-
-   has_many :statuses
+                
+  has_many :statuses
 
    def full_name
    		first_name + ' ' + last_name 

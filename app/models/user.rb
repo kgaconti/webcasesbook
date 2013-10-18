@@ -13,6 +13,8 @@ class User < ActiveRecord::Base
    								with: /\A[a-zA-Z0-9._-]+\z/,
    								message: 'Must have no spaces, special characters and fomatted correctly'
    							}
+  validates :password, confirmation: true
+  validates :password_confirmation, presence: true
                 
   has_many :statuses
 
